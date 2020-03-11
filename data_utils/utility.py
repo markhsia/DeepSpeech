@@ -9,7 +9,7 @@ import os
 import tarfile
 import time
 #from Queue import Queue
-import Queue
+import queue
 from threading import Thread
 from multiprocessing import Process, Manager, Value
 from paddle.dataset.common import md5file
